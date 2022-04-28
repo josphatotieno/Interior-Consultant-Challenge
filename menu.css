@@ -1,7 +1,4 @@
 .menu-wrapper {
-    position: fixed;
-    top: 0%;
-    right: 0%;
     z-index: 1;
 }
 
@@ -29,7 +26,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: rgb(11, 11, 173); */
     z-index: 1;
 }
 

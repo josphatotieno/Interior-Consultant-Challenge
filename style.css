@@ -12,6 +12,10 @@ body {
     /* height: 100vh; */
 }
 
+main {
+    height: 100vh;
+}
+
 header {
     display:flex;
     justify-content: space-between;
@@ -77,8 +81,9 @@ a {
     margin-bottom: 20px;
 }
 
-.showcase-info .fa {
-    color: #fff;
+.fa-long-arrow-right {
+    color: rgb(253, 253, 253);
+    font-size: 50px;
 }
 
 .showcase-image {
@@ -156,6 +161,28 @@ footer {
 }
 
 /* Media Queries */
+@media (min-width: 500px) and (max-width: 768px) {
+    header,
+    .showcase-wrapper {
+        flex-direction: column;
+    }
+
+    header {
+        padding: 15px 10px 0;
+        text-align: center;
+    }
+
+    header h1 {
+        margin-bottom: 20px;
+    }
+
+    .showcase-info {
+        margin-right: 0;
+        margin-bottom: 100px;
+    }
+}
+
+
 @media (max-width: 500px) {
     header {
         padding: 15px 10px 0;
